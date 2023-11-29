@@ -1,0 +1,124 @@
+:root {
+    --yellow: #B4B4A6;
+    --green: #577146;
+    --white: white;
+    --brown: #764934;
+}
+
+body {
+    background-color: grey;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.Logo {
+    height: 400px;
+    width: 100%;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    background-image: url("/assets/images/laughingfox.png");
+    background-size: 80rem 40rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2mm ridge black;
+    background-color: rgba(0, 0, 0, 0.425);
+    opacity: 1;
+}
+
+header {
+    background-color: var(--green);
+    color: var(--yellow);
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 4mm ridge var(--brown);
+}
+
+.TextColor {
+    color: #98793F;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 3rem;
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #764934;
+    background-color: white;
+    border-radius: 10px;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;  
+    color: var(--yellow);
+}
+
+header nav ul{
+    list-style: none;
+    display: block;
+
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    padding: 1.5rem;
+    border: 2mm ridge var(--yellow);
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+p {
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2rem;
+    font-size: 1.5rem;
+    border: 2mm ridge var(--yellow);
+}
+
+h2 {
+    color: var(--yellow);
+    background-color: var(--green);
+    font-size: 2rem;
+    padding: 2rem;
+    display: block;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 20%;
+    border: 4mm ridge var(--brown);
+}
+
+.contacts ul {
+    list-style: none;
+    margin: 2rem 2rem; 
+    border: 2mm ridge var(--yellow);
+}
+
+.contacts ul li {
+    display: inline-block;
+    padding: 2rem;
+}
+
+
+
+/* MEDIA TAGS */
+
