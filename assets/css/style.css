@@ -22,7 +22,7 @@ html, body {
     display: block;
     margin: 0 auto;
     margin-bottom: 25px;
-    background-image: url("assets/images/laughingfox.png");
+    background-image: url("../images/laughingfox.png");
     background-size: 80rem 40rem;
     background-repeat: no-repeat;
     background-position: center;
