@@ -15,13 +15,19 @@ html, body {
     padding: 0;
 }
 
+/* Container relative to allow for absolute positioning of h3's */
+
 .container {
     position: relative;
     display: flex;
     flex-wrap: wrap;
     width: 50%;
     margin: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
 }
+
+/* Places headings on the top left of the image/div */
 
 .topleft {
     position: absolute;
@@ -79,6 +85,12 @@ section {
     width: 100%;
 }
 
+section ul li a:hover {
+    color: #764934;
+    background-color: white;
+    border-radius: 10px;
+}
+
 
 section div a:hover {
     text-decoration: none;
@@ -89,6 +101,8 @@ a {
     color: var(--white);
     text-decoration: none;
 }
+
+/* On hover list links background colour and colour change to white and brown respectively */
 
 header nav ul li a:hover {
     color: #764934;
