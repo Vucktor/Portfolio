@@ -15,9 +15,32 @@ html, body {
     padding: 0;
 }
 
+.container {
+    position: relative;
+    width: 20%;
+}
+
+.topleft {
+    position: absolute;
+    left: 1rem;
+    top: 0;
+    background-color: var(--green);
+    color:  var(--white);
+    border: 1mm ridge var(--brown);
+}
+
+img {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    width: 30rem;
+    height: 30rem;
+    border: 2mm ridge var(--yellow);
+}
+
 .Logo {
     height: 400px;
-    width: 100%;
+    width: 99%;
     padding: 0;
     display: block;
     margin: 0 auto;
@@ -82,8 +105,7 @@ header nav ul li {
 }
 
 section {
-    display: flex;
-    flex-wrap: wrap;
+    display: relative;
     width: 100%;
 }
 
@@ -105,6 +127,7 @@ h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 20%;
     border: 4mm ridge var(--brown);
+    margin-left: 1.5rem;
 }
 
 .contacts ul {
