@@ -11,12 +11,19 @@ This has personally allowed me to touch up on my CSS and HTML skills to further 
 I have used alot of other sites to allow me to gain further knowledge into CSS these include:
 
 https://developer.mozilla.org/en-US/docs/Web/CSS
+
 https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning
+
 https://www.w3schools.com/css/css_positioning.asp
+
 https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
 https://developer.mozilla.org/en-US/docs/Web/CSS/opacity
+
 https://developer.mozilla.org/en-US/docs/Web/CSS/list-style
+
 https://developer.mozilla.org/en-US/docs/Web/CSS/font
+
 https://developer.mozilla.org/en-US/docs/Web/CSS/display
 
 ## Usage
